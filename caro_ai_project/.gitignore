@@ -1,0 +1,34 @@
+# --- Python rác (Bytecode) ---
+__pycache__/
+*.py[cod]
+*$py.class
+
+# --- Môi trường ảo (Virtual Environments) ---
+venv/
+.venv/
+env/
+ENV/
+
+# --- Build và Phân phối (PyInstaller) ---
+build/
+dist/
+*.spec
+
+# --- Kiểm thử (Testing) ---
+.pytest_cache/
+.tox/
+.coverage
+htmlcov/
+
+# --- Cài đặt IDE (VS Code, PyCharm) ---
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# --- Hệ điều hành ---
+.DS_Store
+Thumbs.db
+
+# --- Logs ---
+*.log
