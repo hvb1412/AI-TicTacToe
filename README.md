@@ -1,3 +1,4 @@
+````markdown
 # Caro AI (Gomoku) - Python Edition
 
 ![Python Version](https://img.shields.io/badge/python-3.10%2B-blue)
@@ -49,3 +50,58 @@ caro_ai_project/
 │   └── test_rules.py
 ├── main.py                     # Application entry point
 └── requirements.txt            # Python dependencies
+````
+
+## 🚀 Installation & Running Locally
+
+### Prerequisites
+
+Make sure you have **Python 3.10 or higher** installed on your system.
+
+### Steps
+
+1.  **Clone the repository:**
+
+    ```bash
+    git clone [https://github.com/hvb1412/AI-TicTacToe.git](https://github.com/hvb1412/AI-TicTacToe.git)
+    cd caro_ai_project
+    ```
+
+2.  **Install dependencies:**
+    *(Optional but recommended: Create a virtual environment first)*
+
+    ```bash
+    pip install -r requirements.txt
+    ```
+
+3.  **Run the game:**
+
+    ```bash
+    python main.py
+    ```
+
+## 🎮 How to Play
+
+1.  The game is played on a 20x20 grid.
+2.  You play as **X** (Red) and the AI plays as **O** (Blue).
+3.  The objective is to be the first player to get an unbroken row of **five pieces** horizontally, vertically, or diagonally.
+4.  Use the **"New Game"** button to restart the match (this will also alternate the starting player between you and the AI).
+5.  Use the **"Undo"** button if you make a mistake.
+
+## 📦 Automated Builds (CI/CD)
+
+This project uses GitHub Actions to automatically build standalone executable files for Windows users.
+If you do not want to install Python, simply go to the **[Actions tab](https://www.google.com/search?q=../../actions)** of this repository, select the latest successful build, and download the `CaroAI-Windows-Executable` artifact to play immediately\!
+
+## 🔮 Future Improvements
+
+While the AI is currently very strong, future updates may include:
+
+  * **Transposition Tables (Zobrist Hashing):** To cache previously evaluated board states and significantly speed up the Minimax search depth.
+  * **Difficulty Levels:** Allowing players to adjust the AI's search depth (e.g., Easy, Medium, Hard).
+  * **Multiplayer Mode:** Adding socket programming for local LAN or online PvP matches.
+  * **UI Upgrade:** Migrating from Tkinter to PyGame or PyQt for smoother animations and custom graphic assets.
+
+-----
+
+*Developed with ❤️ by HoangVanBinh - FullStack Engineering at Sun Asterisk. Feel free to fork, open issues, or submit PRs\!*
