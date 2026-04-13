@@ -103,4 +103,4 @@ While the AI is currently very strong, future updates may include:
 
 -----
 
-*Developed with ❤️ by HoangVanBinh - FullStack Engineering at Sun Asterisk. Feel free to fork, open issues, or submit PRs\!*
+*Developed with ❤️. Feel free to fork, open issues, or submit PRs\!*
