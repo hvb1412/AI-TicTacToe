@@ -9,8 +9,17 @@ class Board:
     def __init__(self, size=20):
         self.size = size
         # Khởi tạo ma trận 22x22, viền ngoài là -1, bên trong là 0
-        self.grid = [[-1 if i == 0 or i == size+1 or j == 0 or j == size+1 else 0 
-                      for j in range(size + 2)] for i in range(size + 2)]
+        self.grid = []
+
+        for i in range(size + 2):
+            row = []
+            for j in range(size + 2):
+                if i == 0 or i == size + 1 or j == 0 or j == size + 1:
+                    row.append(-1)
+                else:
+                    row.append(0)
+            self.grid.append(row)
+            
         self.turn_count = 0
         self.history = [] # Dùng cho chức năng Undo
 
